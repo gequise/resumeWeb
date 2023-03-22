@@ -228,7 +228,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box {
-  width: 19rem;
+  width: 18rem;
   background: #222;
   text-align: center;
   padding: 2rem;
@@ -236,7 +236,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box span {
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--springGreen);
 }
 
@@ -257,7 +257,7 @@ header .navbar ul li a:hover {
 }
 
 .experience .box-container .box {
-  width: 40rem;
+  width: 50rem;
   margin: 4rem 1rem;
   padding-left: 4rem;
   border-left: 0.2rem solid #fff;
@@ -265,7 +265,7 @@ header .navbar ul li a:hover {
 }
 
 .experience .box-container .box span {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   background: #222;
   color: #fff;
   border-radius: 5rem;
@@ -382,6 +382,10 @@ header .navbar ul li a:hover {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+a {
+  color: inherit;
 }
 /* End Contact Section CSS */
 
